@@ -57,7 +57,6 @@ function tClear() {
 	document.getElementById("textarea1").style.fontWeight = "normal";
 	document.getElementById("textarea1").style.textAlign = "left";
 	document.getElementById("textarea1").style.fontStyle = "normal";
-	document.getElementById("textarea1").style.textTransform = "capitalize";
 	document.getElementById("textarea1").value = " ";
 }
 
