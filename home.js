@@ -3,12 +3,12 @@ function bold() {
 	document.getElementById("textarea1").style.fontWeight = "bold";
 }
 
-function fitalics() {
+function italics() {
 	//function to make the text italic using DOM method
 	document.getElementById("textarea1").style.fontStyle = "italic";
 }
 
-function flAlign() {
+function lAlign() {
 	//function to make the text alignment left using DOM method
 	document.getElementById("textarea1").style.textAlign = "left";
 }
