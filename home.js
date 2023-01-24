@@ -23,9 +23,9 @@ function rAlign() {
 	document.getElementById("textarea1").style.textAlign = "right";
 }
 
-function uCase() {
-	//function to make the text in Uppercase using DOM method
-	document.getElementById("textarea1").style.textTransform = "uppercase";
+function cap() {
+	//function to make the text capitalize using DOM method
+    document.getElementById("textarea1").style.textTransform = "capitalize";
 }
 
 function tPaste() {
@@ -54,10 +54,10 @@ function tCopy() {
 function tClear() {
 	//function to make the text back to normal by removing all the methods applied
 	//using DOM method
-	// document.getElementById("textarea1").style.fontWeight = "normal";
-	// document.getElementById("textarea1").style.textAlign = "left";
-	// document.getElementById("textarea1").style.fontStyle = "normal";
-	// document.getElementById("textarea1").style.textTransform = "capitalize";
+	document.getElementById("textarea1").style.fontWeight = "normal";
+	document.getElementById("textarea1").style.textAlign = "left";
+	document.getElementById("textarea1").style.fontStyle = "normal";
+	document.getElementById("textarea1").style.textTransform = "capitalize";
 	document.getElementById("textarea1").value = " ";
 }
 
